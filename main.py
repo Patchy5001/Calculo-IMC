@@ -10,9 +10,11 @@ imc = round(imc, 2)
 print(f"\nIMC: {imc}")
 
 if imc < 18.5:
-    print("Fora do peso normal")
+    print("Abaixo do peso")    
 elif imc < 25:
     print("Peso normal")
+elif imc < 30:
+    print("Excesso de peso")
 else:
-    print("Fora do peso normal")
+    print("Obesidade")
 
